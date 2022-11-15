@@ -1,0 +1,261 @@
+\documentclass[dvipdfmx]{article}
+
+\usepackage[dvips]{graphicx}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[dvipdfmx]{hyperref}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{ESIEEcv}
+
+\renewcommand{\PostApport}{\newline}
+
+\title{Curriculum Vitae}
+\author{Denis Sacchet}
+
+\oddsidemargin 0in
+\evensidemargin 0in
+\textwidth\paperwidth
+\advance\textwidth -2in
+\textheight\paperheight
+\advance\textheight -2in
+\headheight 0pt
+\headsep 0pt
+\footskip 0pt
+
+\begin{document}
+
+\noindent\hspace*{\tabcolsep}
+\begin{minipage}{0.5\linewidth}
+{\large Denis \textsc{Sacchet}}\\
+7, rue Marie Marvingt\\
+54~180 Heillecourt
+\end{minipage}
+\begin{minipage}{0.4\linewidth}
+T\'el~: 06~77~82~16~22\\
+Mail~: \texttt{\href{mailto:denis@sacchet.fr}{denis@sacchet.fr}}\\
+N\'e le 07 septembre 1979 (43 ans)\\
+Mari\'e - 2 enfants
+\end{minipage}
+
+\begin{rubrique}{Formation initiale}
+
+\begin{sousrubrique}
+\Titre{Dipl\^ome Ing\'enieur T\'el\'ecom/R\'eseaux - EFREI}
+\Date{2002}
+\end{sousrubrique}
+
+\begin{sousrubrique}
+\Titre{Baccalaur\'eat s\'erie S - Lyc\'ee Albert Schweitzer, Le Raincy}
+\Date{1997}
+\end{sousrubrique}
+
+\end{rubrique}
+
+\begin{rubrique}{Comp\'etences}
+
+\begin{sousrubrique}
+\Competence{Techniques}
+\Descr{Syst\`emes et r\'eseaux}
+\Apport{ArchLinux, Debian, Gentoo, Xen, KVM, VMWare, Docker, K8s, hardening}
+\Apport{Messagerie (Postfix, Exim, DKIM, SPF, DMARC), FTP (PureFTPd, ProFTPd)}
+\Apport{Samba, Web (Apache, Nginx, Varnish, NodeJS), Sauvegarde (dirvish, xtradbbackup)}
+\Apport{S\'ecurit\'e (Iptables, Shorewall, Iproute2, SSL/PKI, SSH, Kerberos, SSSD, Auditd, Ranger, Keycloack, OpenVPN, Fortigate, Vyatta, Cyberwatch, Akamai, Naxsi)}
+\Apport{DNS (Bind, PowerDNS), Netbox, Device42, DHCP (ISC), Service Discovery (Consul)}
+\Apport{R\'eseau (TCP/IP, Cisco, routage BGP/OSPF, QOS, Vlan, Keepalived, NSX-T)}
+\Apport{Load balancing (Citrix Netscaler, Haproxy, Traeffic), Broker (RabbitMQ, Kafka)}
+\Apport{IaC (Scripting Bash/Python, Terraform, Terragrunt, Puppet, Ansible)}
+\Apport{Observabilit\'e (Prometheus/Thanos, Icinga, Opentelemetry, Elasticsearch, Grafana, ...)}
+\Apport{Troubleshooting (tcpdump, strace, wireshark, lsof, ...)}
+\Apport{Bases de donn\'ees (Mysql, PostgreSQL, MongoDB, Elasticsearch)}
+\Apport{Cloud AWS}
+\end{sousrubrique}
+
+\begin{sousrubrique}
+\Competence{Architecture}
+\Descr{Syst\`emes et r\'eseaux}
+\Apport{Principe de haute disponibilit\'e, de r\'esilience, de scalabilit\'e}
+\Apport{Principe de s\'ecurit\'e : AAA, d\'efense en profondeur}
+\Apport{Urbanisation / Planification datacenter, r\'eseau, infrastructure}
+\end{sousrubrique}
+
+\begin{sousrubrique}
+\Competence{Management}
+\Descr{Gestion d'une \'equipe d'ing\'enieurs}
+\Apport{Gestion des charges et ressources}
+\Apport{\'Elaboration de roadmap}
+\Apport{Mise en place et suivi de KPI}
+\Apport{Recrutement}
+\Apport{Plan de developpement}
+\Apport{DevOps/AgileOps (JIRA, Confluence, Mattermost)}
+\end{sousrubrique}
+
+\begin{sousrubrique}
+\Competence{Gestion de projet}
+\Descr{Projets techniques et projets m\'etiers}
+\Apport{M\'ethodologie agile}
+\Apport{R\'edaction de dossier de s\'ecurit\'e}
+\Apport{R\'edaction de HDL, LLD, dossier d'expoitation}
+\end{sousrubrique}
+
+\begin{sousrubrique}
+\Competence{Programmation}
+\Descr{Syst\`eme, infrastructure}
+\Apport{C, Bash, Python, Perl}
+\Apport{Git, CI/CD}
+\end{sousrubrique}
+
+\begin{sousrubrique}
+\Competence{Anglais}
+\Descr{\'Ecrit et parl\'e (TOEIC : 870)}
+\end{sousrubrique}
+
+\end{rubrique}
+\newpage
+\begin{rubrique}{Exp\'eriences professionnelles}
+
+\begin{sousrubrique}
+\Date{Depuis Janvier 2012}
+\Duree{11 ans}
+\Lieu{\href{http://www.boursorama.com/}{Boursorama}}
+\Descr{Responsable p\^ole architecture syst\`eme}
+\Apport{\textbf{Plateforme web}.\newline Boursorama Banque est la premi\`ere banque en ligne en France avec plus de 4 millions de clients. Mon \'equipe est en charge des plateformes d'h\'ebergement web avec de fortes contraintes de scalabilit\'e, r\'esilience et s\'ecurit\'e. Les infrastructures permettent d'accompagner la croissance de l'entreprise qui s'est fortement acc\'el\'er\'ee depuis 2017. L'offre produit est en constante \'evolution avec des lancements mensuels. Pour cela, Nous nous appuyons sur des m\'ethodologies Agile, une approche DevOps, et un outillage IaC.\newline\newline Boursorama est la banque la moins ch\`ere, ce qui n\'ecessite de toujours faire plus avec des investissements et un récurrent maîtris\'es, tout en respectant les exigences r\'eglementaires et en conservant un niveau de s\'ecurit\'e optimal. Cela n\'ecessite beaucoude pragmatisme, un haut niveau d'industrialisation et une remise en question permanente sur nos pratiques d'h\'ebergement.\newline\newline Le time-to-market est la cl\'e de la comp\'etitivit\'e, il faut accompagner les \'equipes de d\'eveloppement en facilitant la mise en place des infrastructures, en donnant les moyens de livrer souvent et sans r\'egression, et de surveiller les impacts des mises en production. Cela fait appel \`a l'outillage d'observabilit\'e et au CI/CD.\newline}
+\Apport{\textbf{Plateforme PFM}.\newline En 2016, suite au rachat de Fiduceo, nous avons repris la gestion d'une plateforme de coffre fort \'electronique pour nos clients. Le principe est de permettre de scrapper les informations sur un ensemble de plateformes : des \'etablissements financiers, des services (gaz, \'electricite, eau, impots), de site de ecommerce, pour enrichir de facon automatique l'espace connect\'e de nos clients avec des probl\'ematiques de scalabilit\'e.\newline}
+\Apport{\textbf{Plateforme datalake}\newline En 2017, les \'equipes data ont commenc\'e \`a traiter de la donn\'ee en mode streaming depuis diff\'erentes sources gr\^ace \`a Kafka et Elasticsearch, technologies ma\^itris'ees par mon \'equipe pour la plateforme de logs de l'entreprise. Cette plateforme s'est ensuite enrichie de plusieurs briques et notamment un \'ecosyst\`eme Hadoop complet, stockant un PetaOctet de donn\'ees.\newline}
+\Apport{\textbf{Management de l'\'equipe d'ing\'enieurs de production}\newline Depuis 2009, mon \'equipe s'est agrandie, passant de 4 personnes \`a 10. Le p\'erim\`etre, les m\'ethodes de travail, l'environnement ont \'evolu\'e rapidement durant ces dix derni\`eres ann\'ees, et je suis fier de dire qu'on a r\'eussi collectivement \`a remettre en question nos m\'ethodes de travail et les outils utilis\'es. D'une \'equipe couteau-suisse, nous nous sommes organis\'es par p\^ole de comp\'etences avec un socle plateforme commun. Nous gardons tous un c\^ot\'e op\'erationnel indispensable pour concevoir des infrastructures en lien avec la r\'ealit\'e op\'erationnelle. Les comp\'etences sont \'egalement d\'evelopp\'ees \`a travers des formations techniques, et les collaborateurs sont encourag\'es \`a participer \`a des conf\'erences.\newline\newline Au quotidien, j'ai en charge la relation avec mes homologues dans les autres \'equipes de la production, mais \'egalement avec les responsables des p\^oles de d\'eveloppement. Nous \'etablissons conjointement les plannings, on revoit les priorit\'es et nous \'elaborons la roadmap annuelle. Je m'occupe \'egalement de l'\'etablissement des KPIs, dont le capacity planning des plateformes et des applications. Je suis en charge de la commande des ressources aupr\`es de nos prestataires d'h\'ebergement.\newline}
+\end{sousrubrique}
+
+\end{rubrique}
+
+\newpage
+
+\begin{rubrique}{Exp\'eriences professionnelles (suite)}
+
+\begin{sousrubrique}
+\Date{Depuis 2008}
+\Duree{14 ans}
+\Lieu{Rack42}
+\Descr{Fondateur et co-g\'erant}
+\Apport{\emph{Gestion de l'entit\'e}}
+\Apport{Comptabilit\'e, gestion contractuelle, d\'emarches administrative}
+\Apport{Relation commerciale}
+\Apport{Comptabilit\'e, gestion contractuelle}
+\Apport{\emph{Prestations aux clients}}
+\Apport{Expertise et conseil dans le domaine du web, de l'hébergement, de linux, des mails et des noms de domaine}
+\Apport{D\'eploiement rapide de sites \'evenementiels pour des web agency Nanc\'eennes}
+\Apport{H\'ebergement de sites de e-commerce}
+\Apport{Gestion d'infrastructures zimbra pour des services publiques}
+\end{sousrubrique}
+
+\begin{sousrubrique}
+\Date{Avril 2009 \`a Janvier 2012}
+\Duree{2 ans et 9 mois}
+\Lieu{\href{http://www.boursorama.com/}{Boursorama}}
+\Descr{Responsable exploitation web}
+\Apport{\emph{Evolution, optimisation et exploitation de la plateforme d'h\'ebergement web}}
+\Apport{Continuit\'e du poste de charg\'e d'exploitation}
+\Apport{Architecture multi sites haute disponibilit\'e\newline - deux plateformes ind\'ependantes capable de tenir la charge unitairement\newline - mise en place de l'orchestration n\'ecessaire pour notre infrastructure MySQL\newline - mise en place de r\'epartiteur de charge Citrix Netscaler avec la technologie GSLB}
+\Apport{Evolution de la m\'etrologie\newline - remplacement de RRD par Graphite\newline - d\'eploiement de Diamond\newline - outillage des d\'eveloppements internes}
+\Apport{Mise en place des bases de l'IaC\newline - d\'eveloppement d'un outil de configuration centralis\'e maison\newline - D\'eveloppement d'un outil de gestion des zones DNS maison}
+\Apport{\emph{Gestion de l'\'equipe d'exploitation web}\newline - \'equipe de 4 personnes\newline - gestion administrative\newline - recrutement\newline - plan de formation}
+\end{sousrubrique}
+
+\begin{sousrubrique}
+\Date{Ao\^ut 2007 \`a Avril 2009}
+\Duree{21 mois}
+\Lieu{\href{http://www.boursorama.com/}{Boursorama}}
+\Descr{Charg\'e d'exploitation}
+\Apport{\emph{Evolution, optimisation et exploitation de la plateforme d'h\'ebergement web}}
+\Apport{Technologies LAMP}
+\Apport{Plateforme mutualis\'ee pour les 4 filiales europ\'eennes (France, Angleterre, Espagne, Allemagne)}
+\Apport{100 serveurs, redondance, haute disponibilit\'e, haute performance, haut rendement}
+\Apport{Virtualisation, r\'epartition de charges}
+\Apport{300~000 visiteurs uniques par jour / 400 Mbps de bande passante en moyenne}
+\Apport{Contexte bancaire}
+\Apport{Optimisation de l'int\'egration des flux de la bourse}
+\Apport{Identification et r\'edaction des proc\'edures d'exploitation}
+\Apport{R\'edaction de la documentation de la plateforme d'h\'ebergement}
+\Apport{Mise en place des environnements de d\'eveloppement}
+\Apport{R\^ole de conseil et de support pour l'\'equipe de d\'eveloppeurs}
+\Apport{Veille technologique}
+\end{sousrubrique}
+
+\end{rubrique}
+
+\newpage
+
+\begin{rubrique}{Exp\'eriences professionnelles (suite)}
+
+\begin{sousrubrique}
+\Date{F\'evrier 2004 \`a Ao\^ut 2007}
+\Duree{3 ans et demi}
+\Lieu{\href{http://www.kikamedical.com/}{KIKA M\'edical}}
+\Descr{Responsable du syst\`eme d'information}
+\Apport{\emph{Conception, mise en oeuvre et gestion de l'h\'ebergement des applications Eventa}}
+\Apport{Technologies PHP, Oracle, Apache, Tomcat}
+\Apport{Appel d'offre, auditing d'h\'ebergeur internationaux}
+\Apport{Architecture en n-tiers avec redondance (15 serveurs)}
+\Apport{Optimisation et rationalisation de la partie base de donn\'ees}
+\Apport{\emph{Refonte du syst\`eme d'information de l'entreprise}}
+\Apport{Coeur du syst\`eme architectur\'e autour de LDAP}
+\Apport{Messagerie s\'ecuris\'ee (antispam, antivirus)}
+\Apport{Environnment client h\'et\'erog\`ene (Mac OS X, Windows, Linux)}
+\Apport{D\'eveloppement Intranet et Extranet}
+\Apport{Plateformes de d\'eveloppement des produits (CVS, Subversion, build automatique)}
+\Apport{Solution VPN intersites}
+\Apport{Sauvegarde sur robot}
+\Apport{15 serveurs sur 3 sites}
+\Apport{Ecriture et mise en place des proc\'edures qualit\'e}
+\end{sousrubrique}
+
+\begin{sousrubrique}
+\Date{Janvier 2003 \`a F\'evrier 2004}
+\Duree{14 mois}
+\Lieu{\href{http://www.acte-ing.com/}{Acte Ing\'enierie}}
+\Descr{Ing\'enieur syst\`emes et r\'eseaux}
+\Apport{Etude et d\'eveloppement du logiciel d'Alaloop (C, PHP/HTML/CSS, Bash et Perl)}
+\Apport{Consultant Cisco sur la COS, Netflow, SAA et NBAR / Alteon (Layer 4 switching)}
+\Apport{Etude Antispam pour le compte Valeo / Support Linux pour la Cin\'emath\`eque Fran\c caise}
+\Apport{Responsable compte client chez L'Or\'eal et ATT}
+\end{sousrubrique}
+
+\begin{sousrubrique}
+\Date{2002}
+\Duree{6 mois}
+\Lieu{\href{http://www.netplus.fr/}{Netplus Communication}}
+\Descr{Ing\'enieur syst\`emes et r\'eseaux}
+\Apport{Administration syst\`emes et r\'eseaux (QOS, WAN, Cisco, FreeBSD, Linux, ...)}
+\Apport{D\'eveloppement d'une interface d'administration d'un serveur FTP (C, PHP, Bash)}
+\Apport{Migration de la messagerie (Sendmail/Qpopper vers Qmail/Vmailmgr/Courier IMAP)}
+\end{sousrubrique}
+
+\begin{sousrubrique}
+\Date{2001}
+\Duree{5 mois}
+\Lieu{\href{http://www.rd.francetelecom.com/index.htm.fr.php}{France T\'el\'ecom R\&D}}
+\Descr{Contr\^ole d'admission dans les r\'eseaux multiservices}
+\Apport{Etude et d\'eveloppement du logiciel de cont\^ole d'admission (Linux, C, CBQ)}
+\Apport{Veille technologique sur la QOS dans les r\'eseaux}
+\end{sousrubrique}
+
+\end{rubrique}
+
+\begin{rubrique}{Divers}
+
+\begin{sousrubrique}
+\Competence{Permis B}
+\Descr{Obtenu en 1998}
+\end{sousrubrique}
+
+\begin{sousrubrique}
+\Competence{Sports}
+\Descr{Pratique de la natation sportive, du VTT, du triathlon, de la randonn\'ee}
+\end{sousrubrique}
+
+\begin{sousrubrique}
+\Competence{Vie associative}
+\Descr{Depan'acteur dans le r\'eseau de Repair Caf\'e du Grand Nancy}
+\end{sousrubrique}
+
+\end{rubrique}
+
+\end{document}
